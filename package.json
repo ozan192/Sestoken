@@ -1,0 +1,18 @@
+{
+  "name": "discord-music-bot",
+  "version": "1.0.0",
+  "description": "Discord kullanıcı tokenleriyle ses kanalına girip şarkı çalan bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.14.0",
+    "discord.js": "^14.11.0",
+    "ytdl-core": "^4.11.4",
+    "ffmpeg-static": "^5.0.2"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}
